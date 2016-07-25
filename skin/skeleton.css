@@ -4,6 +4,11 @@
 }
 
 /* TABS */
+#tabbrowser-tabs,
+#TabsToolbar,
+#browser-panel{
+    background: var(--main-bg-color) !important;
+}
 #TabsToolbar .tabbrowser-tabs {
     background: var(--main-bg-color) !important;
 }
