@@ -1,0 +1,94 @@
+/* NEW TAB */
+#TabsToolbar .tabs-newtab-button {
+    list-style-image: url(chrome://browser/skin/tabbrowser/newtab.svg) !important;
+}
+
+/* TABS */
+#TabsToolbar .tabbrowser-tabs {
+    background: var(--main-bg-color) !important;
+}
+#TabsToolbar .tabbrowser-tab[selected] {
+    background: var(--main-tab-active-bg-color) !important;
+    color: var(--main-tab-active-text-color) !important;
+}
+#TabsToolbar .tabbrowser-tab:hover[selected] {
+    background: var(--main-tab-active-hover-bg-color) !important;
+    color: var(--main-tab-active-text-color) !important;
+}
+#TabsToolbar .tabbrowser-tab {
+    background: var(--main-tab-inactive-bg-color) !important;
+    color: var(--main-tab-inactive-text-color) !important;
+}
+#TabsToolbar .tabbrowser-tab:hover:not([selected]) {
+    background: var(--main-tab-inactive-hover-bg-color) !important;
+    color: var(--main-tab-inactive-hover-text-color) !important;
+}
+#TabsToolbar .tabbrowser-tab::after,
+#TabsToolbar .tabbrowser-tab::before {
+    background: var(--main-bg-color) !important;
+}
+
+/* NAV BAR */
+#nav-bar {
+    background: var(--main-nav-bg-color) !important;
+    color: var(--main-url-text-color) !important;
+}
+
+/* URL BAR */
+#urlbar {
+    background: var(--main-url-bg-color) !important;
+    color: var(--main-url-text-color)!important;
+}
+#urlbar ::-moz-selection,
+#navigator-toolbox .searchbar-textbox ::-moz-selection {
+    background-color: var(--main-selection-background-color) !important;
+    color: var(--main-selection-color) !important;
+}
+
+/* SEARCH BAR */
+#searchbar .searchbar-textbox {
+    background: var(--main-url-bg-color) !important;
+    color: var(--main-url-text-color)!important;
+}
+
+/* BOOKMARKS */
+#PersonalToolbar {
+    background: var(--main-nav-bg-color) !important;
+}
+#PersonalToolbar .toolbarbutton-text {
+    color: var(--main-url-text-color) !important;
+}
+
+/* TOOLTIPS */
+#btTooltip,
+#un-toolbar-tooltip,
+#tooltip,
+.tooltip,
+#aHTMLTooltip,
+#urlTooltip,
+tooltip,
+#aHTMLTooltip,
+#urlTooltip,
+#brief-tooltip,
+#brief-tooltip-last-updated,
+#brief-tooltip-no-unread,
+#brief-tooltip-feed-name,
+#brief-tooltip-unread-count,
+#brief-tooltip-unread-desc,
+#brief-tooltip-rows,
+#showcaseTooltipLeftArrow,
+#showcaseTooltipRightArrow,
+#linkReporterTitleTooltip,
+#linkReporterURLTooltip,
+#linkReporterURLIconTooltip,
+#btTooltipTextBox,
+#abp-tooltip,
+#un-toolbar-tooltip,
+.tooltip-label tooltip * {
+    background: var(--main-tab-active-bg-color) !important;
+    color: var(--main-tab-active-text-color) !important;
+}
+.statuspanel-label {
+    background: var(--main-tab-active-bg-color) !important;
+    color: var(--main-tab-active-text-color) !important;
+}

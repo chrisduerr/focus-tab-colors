@@ -1,0 +1,134 @@
+{
+  "title": "Focus Tab Colors",
+  "name": "ftc",
+  "version": "0.0.2",
+  "description": "A basic add-on",
+  "main": "index.js",
+  "author": "UndeadLeech",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "GPLv3",
+  "keywords": [
+    "useful"
+  ],
+  "preferences": [{
+    "name": "placeholder1",
+    "title": "Focused Properties:",
+    "type": "bool"
+  },
+  {
+    "name": "focused_main_bg",
+    "title": "Titlebar Background Color",
+    "type": "string",
+    "value": "#121212"
+  },
+  {
+    "name": "focused_url_bg",
+    "title": "URL Background Color",
+    "type": "string",
+    "value": "#121212"
+  },
+  {
+    "name": "focused_url_fg",
+    "title": "URL Text Color",
+    "type": "string",
+    "value": "#9e9e9e"
+  },
+  {
+    "name": "focused_currenttab_bg",
+    "title": "Current Tab Background Color",
+    "type": "string",
+    "value": "#323232"
+  },
+  {
+    "name": "focused_currenttab_fg",
+    "title": "Current Tab Foreground Color",
+    "type": "string",
+    "value": "#9e9e9e"
+  },
+  {
+    "name": "focused_tab_bg",
+    "title": "Tab Background Color",
+    "type": "string",
+    "value": "#212121"
+  },
+  {
+    "name": "focused_tab_fg",
+    "title": "Tab Foreground Color",
+    "type": "string",
+    "value": "#616161"
+  },
+  {
+    "name": "focused_tabhover_bg",
+    "title": "Tab Hover Background Color",
+    "type": "string",
+    "value": "#2a2a2a"
+  },
+  {
+    "name": "focused_tabhover_fg",
+    "title": "Tab Hover Foreground Color",
+    "type": "string",
+    "value": "#9e9e9e"
+  },
+  {
+    "name": "focused_select_bg",
+    "title": "Selection Background Color",
+    "type": "string",
+    "value": "#212121"
+  },
+  {
+    "name": "focused_select_fg",
+    "title": "Selection Foreground Color",
+    "type": "string",
+    "value": "#9e9e9e"
+  },
+  {
+    "name": "placeholder2",
+    "title": "Unfocused Properties:",
+    "type": "bool"
+  },
+  {
+    "name": "unfocused_main_bg",
+    "title": "Titlebar Background Color",
+    "type": "string",
+    "value": "#121212"
+  },
+  {
+    "name": "unfocused_url_bg",
+    "title": "URL Background Color",
+    "type": "string",
+    "value": "#121212"
+  },
+  {
+    "name": "unfocused_url_fg",
+    "title": "URL Text Color",
+    "type": "string",
+    "value": "#9e9e9e"
+  },
+  {
+    "name": "unfocused_currenttab_bg",
+    "title": "Current Tab Background Color",
+    "type": "string",
+    "value": "#212121"
+  },
+  {
+    "name": "unfocused_currenttab_fg",
+    "title": "Current Tab Foreground Color",
+    "type": "string",
+    "value": "#616161"
+  },
+  {
+    "name": "unfocused_tab_bg",
+    "title": "Tab Background Color",
+    "type": "string",
+    "value": "#1a1a1a"
+  },
+  {
+    "name": "unfocused_tab_fg",
+    "title": "Tab Foreground Color",
+    "type": "string",
+    "value": "#616161"
+  }]
+}
