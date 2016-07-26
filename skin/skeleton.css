@@ -4,14 +4,6 @@
 }
 
 /* TABS */
-#tabbrowser-tabs,
-#TabsToolbar,
-#browser-panel{
-    background: var(--main-bg-color) !important;
-}
-#TabsToolbar .tabbrowser-tabs {
-    background: var(--main-bg-color) !important;
-}
 #TabsToolbar .tabbrowser-tab[selected] {
     background: var(--main-tab-active-bg-color) !important;
     color: var(--main-tab-active-text-color) !important;
@@ -28,6 +20,14 @@
     background: var(--main-tab-inactive-hover-bg-color) !important;
     color: var(--main-tab-inactive-hover-text-color) !important;
 }
+#TabsToolbar,
+#browser-panel,
+#new-tab-button,
+#alltabs-button,
+#tabbrowser-tabs,
+.scrollbutton-up,
+.scrollbutton-down,
+#TabsToolbar .tabbrowser-tabs,
 #TabsToolbar .tabbrowser-tab::after,
 #TabsToolbar .tabbrowser-tab::before {
     background: var(--main-bg-color) !important;
